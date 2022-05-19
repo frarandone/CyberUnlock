@@ -1,0 +1,339 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://RobotoFlex-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://LineEdit.gd" type="Script" id=2]
+[ext_resource path="res://okbutton.png" type="Texture" id=3]
+[ext_resource path="res://OkButton.gd" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.905882, 0.145098, 0.231373, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 1, 0.839216, 0.223529, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 1, 0.839216, 0.223529, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 35
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Panel" parent="."]
+margin_right = 1020.0
+margin_bottom = 600.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="Background"]
+margin_left = 213.898
+margin_top = 252.0
+margin_right = 854.898
+margin_bottom = 346.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+placeholder_text = "Inserisci qua il codice"
+placeholder_alpha = 0.5
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panels" type="Node2D" parent="Background"]
+
+[node name="Panel8021" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 266.0
+margin_top = 221.0
+margin_right = 830.0
+margin_bottom = 511.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel8021Text" type="RichTextLabel" parent="Background/Panels/Panel8021"]
+margin_left = 6.22021
+margin_top = 41.4365
+margin_right = 558.22
+margin_bottom = 210.437
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] prendi la carta C [/center]"
+text = " prendi la carta C "
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/Panel8021"]
+margin_left = 224.547
+margin_top = 120.412
+margin_right = 2614.55
+margin_bottom = 2668.41
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel0473" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 266.0
+margin_top = 221.0
+margin_right = 830.0
+margin_bottom = 511.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel0473Text" type="RichTextLabel" parent="Background/Panels/Panel0473"]
+margin_left = 8.46515
+margin_top = 41.4365
+margin_right = 560.465
+margin_bottom = 210.437
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] prendi la carta 47 [/center]
+
+"
+text = " prendi la carta 47 
+
+"
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/Panel0473"]
+margin_left = 224.547
+margin_top = 120.412
+margin_right = 2614.55
+margin_bottom = 2668.41
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4785" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 266.0
+margin_top = 221.0
+margin_right = 830.0
+margin_bottom = 511.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4785Text" type="RichTextLabel" parent="Background/Panels/Panel4785"]
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] aggiungi 18 a un numero blu [/center]
+"
+text = " aggiungi 18 a un numero blu 
+"
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4785"]
+margin_left = 218.601
+margin_top = 162.034
+margin_right = 2608.6
+margin_bottom = 2710.03
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Final" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 266.0
+margin_top = 221.0
+margin_right = 830.0
+margin_bottom = 511.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FinalText" type="RichTextLabel" parent="Background/Panels/Final"]
+margin_left = 8.49487
+margin_top = 59.9357
+margin_right = 560.495
+margin_bottom = 314.936
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] congratulazione i file sono stati inviati alla polizia postale [/center]
+"
+text = " congratulazione i file sono stati inviati alla polizia postale 
+"
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/Final"]
+margin_left = 229.838
+margin_top = 164.281
+margin_right = 2619.84
+margin_bottom = 2712.28
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4060" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 266.0
+margin_top = 221.0
+margin_right = 830.0
+margin_bottom = 511.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="U" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] U
+ [/center]
+"
+text = " U
+ 
+"
+
+[node name="N" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] N
+ [/center]
+"
+text = " 
+
+"
+
+[node name="O" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] O
+ [/center]
+"
+text = " O
+ 
+"
+
+[node name="T" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] T
+ [/center]
+"
+text = " 
+ 
+"
+
+[node name="R" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] R
+ [/center]
+"
+text = " R
+ 
+"
+
+[node name="E" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] E
+ [/center]
+"
+text = " E
+ 
+"
+
+[node name="S" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 3.24316
+margin_top = 24.6762
+margin_right = 555.243
+margin_bottom = 245.676
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] S
+ [/center]
+"
+text = " S
+ 
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4060"]
+margin_left = 218.601
+margin_top = 162.034
+margin_right = 2608.6
+margin_bottom = 2710.03
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_entered" from="Background/LineEdit" to="Background/LineEdit" method="_on_LineEdit_text_entered"]
+[connection signal="pressed" from="Background/Panels/Panel8021/OkButton" to="Background/Panels/Panel8021/OkButton" method="_on_OkButton_pressed"]
+[connection signal="pressed" from="Background/Panels/Panel0473/OkButton" to="Background/Panels/Panel0473/OkButton" method="_on_OkButton_pressed"]
+[connection signal="pressed" from="Background/Panels/Panel4785/OkButton" to="Background/Panels/Panel4785/OkButton" method="_on_OkButton_pressed"]
+[connection signal="pressed" from="Background/Panels/Final/OkButton" to="Background/Panels/Final/OkButton" method="_on_OkButton_pressed"]
+[connection signal="pressed" from="Background/Panels/Panel4060/OkButton" to="Background/Panels/Panel4060/OkButton" method="_on_OkButton_pressed"]
