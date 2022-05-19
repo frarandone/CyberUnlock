@@ -1,9 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://RobotoFlex-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://LineEdit.gd" type="Script" id=2]
 [ext_resource path="res://okbutton.png" type="Texture" id=3]
 [ext_resource path="res://OkButton.gd" type="Script" id=4]
+[ext_resource path="res://The Blacklist.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://logo.png" type="Texture" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.905882, 0.145098, 0.231373, 1 )
@@ -23,21 +25,26 @@ bg_color = Color( 1, 0.839216, 0.223529, 1 )
 size = 35
 font_data = ExtResource( 1 )
 
+[sub_resource type="DynamicFont" id=6]
+size = 250
+outline_color = Color( 0.772549, 0.0627451, 0.0627451, 1 )
+font_data = ExtResource( 5 )
+
 [node name="Node2D" type="Node2D"]
 
 [node name="Background" type="Panel" parent="."]
-margin_right = 1020.0
-margin_bottom = 600.0
+margin_right = 720.0
+margin_bottom = 1280.0
 custom_styles/panel = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LineEdit" type="LineEdit" parent="Background"]
-margin_left = 213.898
-margin_top = 252.0
-margin_right = 854.898
-margin_bottom = 346.0
+margin_left = 70.0
+margin_top = 633.139
+margin_right = 650.0
+margin_bottom = 727.139
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -233,8 +240,8 @@ bbcode_enabled = true
 bbcode_text = "[center] N
  [/center]
 "
-text = " 
-
+text = " N
+ 
 "
 
 [node name="O" type="RichTextLabel" parent="Background/Panels/Panel4060"]
@@ -265,7 +272,7 @@ bbcode_enabled = true
 bbcode_text = "[center] T
  [/center]
 "
-text = " 
+text = " T
  
 "
 
@@ -331,6 +338,26 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Title" type="RichTextLabel" parent="Background"]
+margin_left = -4.0
+margin_top = 51.0
+margin_right = 725.0
+margin_bottom = 681.0
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 1, 0.839216, 0.223529, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Cyber
+Unlock [/center]"
+text = " Cyber
+Unlock "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="logo" type="Sprite" parent="."]
+position = Vector2( 366.35, 1012.02 )
+texture = ExtResource( 6 )
 [connection signal="text_entered" from="Background/LineEdit" to="Background/LineEdit" method="_on_LineEdit_text_entered"]
 [connection signal="pressed" from="Background/Panels/Panel8021/OkButton" to="Background/Panels/Panel8021/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel0473/OkButton" to="Background/Panels/Panel0473/OkButton" method="_on_OkButton_pressed"]
