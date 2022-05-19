@@ -5,10 +5,18 @@ var prefix
 var msg
 var prefixes = ['tec', 'sys', 'cyb', 'hac', 'ufo', 'squ', 'non', 'cob', 'boo', 'wor', 'cod']
 
+func _ready():
+	connect("focus_entered", self, "js_text_entry")
 
+func js_text_entry():
+	text = JavaScript.eval(
+			"prompt('%s', '%s');" % ["Inserisci il codice qua:", text], 
+			true
+			)
+	release_focus()
 
-func _on_LineEdit_text_entered(new_text):
-	code = new_text
+func _on_LineEdit_text_entered():
+	code = text
 	code = code.replace(' ', '')
 	code = code.to_lower()
 	prefix = code.substr(0,3)
@@ -44,4 +52,10 @@ func return_letter(prefix):
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel4060/E").set_visible(true)		
 	if prefix == 'non':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel4060/S").set_visible(true)		
+		
+
+
+
+func _on_TextureButton_pressed():
+	get_tree().get_root().get_node("/root/Node2D/Background/LineEdit")._on_LineEdit_text_entered()
 		

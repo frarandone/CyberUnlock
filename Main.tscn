@@ -10,6 +10,11 @@
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.905882, 0.145098, 0.231373, 1 )
 
+[sub_resource type="DynamicFont" id=6]
+size = 250
+outline_color = Color( 0.772549, 0.0627451, 0.0627451, 1 )
+font_data = ExtResource( 5 )
+
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 1, 0.839216, 0.223529, 1 )
 
@@ -25,11 +30,6 @@ bg_color = Color( 1, 0.839216, 0.223529, 1 )
 size = 35
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=6]
-size = 250
-outline_color = Color( 0.772549, 0.0627451, 0.0627451, 1 )
-font_data = ExtResource( 5 )
-
 [node name="Node2D" type="Node2D"]
 
 [node name="Background" type="Panel" parent="."]
@@ -40,11 +40,27 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Title" type="RichTextLabel" parent="Background"]
+margin_left = -4.0
+margin_top = 51.0
+margin_right = 725.0
+margin_bottom = 681.0
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 1, 0.839216, 0.223529, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Cyber
+Unlock [/center]"
+text = " Cyber
+Unlock "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="LineEdit" type="LineEdit" parent="Background"]
-margin_left = 70.0
-margin_top = 633.139
-margin_right = 650.0
-margin_bottom = 727.139
+margin_left = 72.2449
+margin_top = 574.771
+margin_right = 652.245
+margin_bottom = 668.771
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -55,35 +71,53 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="Background"]
+margin_left = 305.266
+margin_top = 687.142
+margin_right = 2695.27
+margin_bottom = 3235.14
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="logo" type="Sprite" parent="Background"]
+position = Vector2( 366.35, 1041.39 )
+texture = ExtResource( 6 )
+
 [node name="Panels" type="Node2D" parent="Background"]
 
 [node name="Panel8021" type="Panel" parent="Background/Panels"]
 visible = false
-margin_left = 266.0
-margin_top = 221.0
-margin_right = 830.0
-margin_bottom = 511.0
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
 custom_styles/panel = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Panel8021Text" type="RichTextLabel" parent="Background/Panels/Panel8021"]
-margin_left = 6.22021
-margin_top = 41.4365
-margin_right = 558.22
-margin_bottom = 210.437
+margin_left = 6.0
+margin_top = 37.0
+margin_right = 575.0
+margin_bottom = 206.0
 custom_fonts/normal_font = SubResource( 5 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] prendi la carta C [/center]"
 text = " prendi la carta C "
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel8021"]
-margin_left = 224.547
-margin_top = 120.412
-margin_right = 2614.55
-margin_bottom = 2668.41
+margin_left = 230.0
+margin_top = 125.0
+margin_right = 2620.0
+margin_bottom = 2673.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
@@ -93,20 +127,20 @@ __meta__ = {
 
 [node name="Panel0473" type="Panel" parent="Background/Panels"]
 visible = false
-margin_left = 266.0
-margin_top = 221.0
-margin_right = 830.0
-margin_bottom = 511.0
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
 custom_styles/panel = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Panel0473Text" type="RichTextLabel" parent="Background/Panels/Panel0473"]
-margin_left = 8.46515
-margin_top = 41.4365
-margin_right = 560.465
-margin_bottom = 210.437
+margin_left = 7.0
+margin_top = 41.0
+margin_right = 574.0
+margin_bottom = 210.0
 custom_fonts/normal_font = SubResource( 5 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
@@ -118,10 +152,10 @@ text = " prendi la carta 47
 "
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel0473"]
-margin_left = 224.547
-margin_top = 120.412
-margin_right = 2614.55
-margin_bottom = 2668.41
+margin_left = 230.0
+margin_top = 125.0
+margin_right = 2620.0
+margin_bottom = 2673.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
@@ -131,20 +165,20 @@ __meta__ = {
 
 [node name="Panel4785" type="Panel" parent="Background/Panels"]
 visible = false
-margin_left = 266.0
-margin_top = 221.0
-margin_right = 830.0
-margin_bottom = 511.0
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
 custom_styles/panel = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Panel4785Text" type="RichTextLabel" parent="Background/Panels/Panel4785"]
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
+margin_left = 7.0
+margin_top = 25.0
+margin_right = 572.0
+margin_bottom = 246.0
 custom_fonts/normal_font = SubResource( 5 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
@@ -154,10 +188,10 @@ text = " aggiungi 18 a un numero blu
 "
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4785"]
-margin_left = 218.601
-margin_top = 162.034
-margin_right = 2608.6
-margin_bottom = 2710.03
+margin_left = 230.0
+margin_top = 125.0
+margin_right = 2620.0
+margin_bottom = 2673.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
@@ -167,20 +201,20 @@ __meta__ = {
 
 [node name="Final" type="Panel" parent="Background/Panels"]
 visible = false
-margin_left = 266.0
-margin_top = 221.0
-margin_right = 830.0
-margin_bottom = 511.0
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
 custom_styles/panel = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="FinalText" type="RichTextLabel" parent="Background/Panels/Final"]
-margin_left = 8.49487
-margin_top = 59.9357
-margin_right = 560.495
-margin_bottom = 314.936
+margin_left = 7.0
+margin_top = 60.0
+margin_right = 574.0
+margin_bottom = 315.0
 custom_fonts/normal_font = SubResource( 5 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
@@ -190,10 +224,10 @@ text = " congratulazione i file sono stati inviati alla polizia postale
 "
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Final"]
-margin_left = 229.838
-margin_top = 164.281
-margin_right = 2619.84
-margin_bottom = 2712.28
+margin_left = 230.0
+margin_top = 150.0
+margin_right = 2620.0
+margin_bottom = 2698.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
@@ -203,10 +237,10 @@ __meta__ = {
 
 [node name="Panel4060" type="Panel" parent="Background/Panels"]
 visible = false
-margin_left = 266.0
-margin_top = 221.0
-margin_right = 830.0
-margin_bottom = 511.0
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
 custom_styles/panel = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -328,37 +362,18 @@ __meta__ = {
 }
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4060"]
-margin_left = 218.601
-margin_top = 162.034
-margin_right = 2608.6
-margin_bottom = 2710.03
+margin_left = 230.0
+margin_top = 125.0
+margin_right = 2620.0
+margin_bottom = 2673.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Title" type="RichTextLabel" parent="Background"]
-margin_left = -4.0
-margin_top = 51.0
-margin_right = 725.0
-margin_bottom = 681.0
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 1, 0.839216, 0.223529, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] Cyber
-Unlock [/center]"
-text = " Cyber
-Unlock "
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="logo" type="Sprite" parent="."]
-position = Vector2( 366.35, 1012.02 )
-texture = ExtResource( 6 )
 [connection signal="text_entered" from="Background/LineEdit" to="Background/LineEdit" method="_on_LineEdit_text_entered"]
+[connection signal="pressed" from="Background/TextureButton" to="Background/LineEdit" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel8021/OkButton" to="Background/Panels/Panel8021/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel0473/OkButton" to="Background/Panels/Panel0473/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel4785/OkButton" to="Background/Panels/Panel4785/OkButton" method="_on_OkButton_pressed"]
