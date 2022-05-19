@@ -27,14 +27,16 @@ func _on_LineEdit_text_entered():
 func check_message(prefix, msg):
 	if prefixes.has(prefix) and msg=='3784':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel8021").set_visible(true)
-	if prefixes.has(prefix) and msg=='2022':
+	elif prefixes.has(prefix) and msg=='2022':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel0473").set_visible(true)
-	if prefixes.has(prefix) and msg=='off_on_on_off_off':
+	elif prefixes.has(prefix) and msg=='off_on_on_off_off':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel4785").set_visible(true)
-	if prefixes.has(prefix) and msg=='4058':
+	elif prefixes.has(prefix) and msg=='4058':
 		return_letter(prefix)
-	if msg=='137':
+	elif msg=='137':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Final").set_visible(true)
+	else:
+		get_tree().get_root().get_node("/root/Node2D/Background/Panels/PanelError").set_visible(true)
 		
 func return_letter(prefix):
 	get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel4060").set_visible(true)

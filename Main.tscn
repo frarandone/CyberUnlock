@@ -125,6 +125,45 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="PanelError" type="Panel" parent="Background/Panels"]
+visible = false
+margin_left = 70.0
+margin_top = 525.0
+margin_right = 650.0
+margin_bottom = 815.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PanelErrorText" type="RichTextLabel" parent="Background/Panels/PanelError"]
+margin_left = 6.0
+margin_top = 37.0
+margin_right = 575.0
+margin_bottom = 206.0
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Questo codice è errato!
+Riprova [/center]"
+text = " Questo codice è errato!
+Riprova "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OkButton" type="TextureButton" parent="Background/Panels/PanelError"]
+margin_left = 230.0
+margin_top = 125.0
+margin_right = 2620.0
+margin_bottom = 2673.0
+rect_scale = Vector2( 0.05, 0.05 )
+texture_normal = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Panel0473" type="Panel" parent="Background/Panels"]
 visible = false
 margin_left = 70.0
@@ -375,6 +414,7 @@ __meta__ = {
 [connection signal="text_entered" from="Background/LineEdit" to="Background/LineEdit" method="_on_LineEdit_text_entered"]
 [connection signal="pressed" from="Background/TextureButton" to="Background/LineEdit" method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel8021/OkButton" to="Background/Panels/Panel8021/OkButton" method="_on_OkButton_pressed"]
+[connection signal="pressed" from="Background/Panels/PanelError/OkButton" to="Background/Panels/PanelError/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel0473/OkButton" to="Background/Panels/Panel0473/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Panel4785/OkButton" to="Background/Panels/Panel4785/OkButton" method="_on_OkButton_pressed"]
 [connection signal="pressed" from="Background/Panels/Final/OkButton" to="Background/Panels/Final/OkButton" method="_on_OkButton_pressed"]
