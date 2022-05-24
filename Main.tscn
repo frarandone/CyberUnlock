@@ -8,25 +8,25 @@
 [ext_resource path="res://logo.png" type="Texture" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0.905882, 0.145098, 0.231373, 1 )
+bg_color = Color( 0.87451, 0.227451, 0.298039, 1 )
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="DynamicFont" id=2]
 size = 250
 outline_color = Color( 0.772549, 0.0627451, 0.0627451, 1 )
 font_data = ExtResource( 5 )
 
-[sub_resource type="StyleBoxFlat" id=2]
+[sub_resource type="StyleBoxFlat" id=3]
 bg_color = Color( 1, 0.839216, 0.223529, 1 )
 
-[sub_resource type="DynamicFont" id=3]
+[sub_resource type="DynamicFont" id=4]
 size = 40
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxFlat" id=4]
+[sub_resource type="StyleBoxFlat" id=5]
 bg_color = Color( 1, 0.839216, 0.223529, 1 )
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=6]
 size = 35
 font_data = ExtResource( 1 )
 
@@ -45,7 +45,7 @@ margin_left = -4.0
 margin_top = 51.0
 margin_right = 725.0
 margin_bottom = 681.0
-custom_fonts/normal_font = SubResource( 6 )
+custom_fonts/normal_font = SubResource( 2 )
 custom_colors/default_color = Color( 1, 0.839216, 0.223529, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Cyber
@@ -61,8 +61,8 @@ margin_left = 72.2449
 margin_top = 574.771
 margin_right = 652.245
 margin_bottom = 668.771
-custom_styles/normal = SubResource( 2 )
-custom_fonts/font = SubResource( 3 )
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 placeholder_text = "Inserisci qua il codice"
 placeholder_alpha = 0.5
@@ -94,7 +94,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -104,7 +104,7 @@ margin_left = 6.0
 margin_top = 37.0
 margin_right = 575.0
 margin_bottom = 206.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] prendi la carta C [/center]"
@@ -131,7 +131,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -141,7 +141,7 @@ margin_left = 6.0
 margin_top = 37.0
 margin_right = 575.0
 margin_bottom = 206.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Questo codice è errato!
@@ -170,7 +170,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -180,7 +180,7 @@ margin_left = 7.0
 margin_top = 41.0
 margin_right = 574.0
 margin_bottom = 210.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] prendi la carta 47 [/center]
@@ -208,7 +208,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -218,7 +218,7 @@ margin_left = 7.0
 margin_top = 25.0
 margin_right = 572.0
 margin_bottom = 246.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] aggiungi 18 a un numero blu [/center]
@@ -244,7 +244,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -254,7 +254,7 @@ margin_left = 7.0
 margin_top = 60.0
 margin_right = 574.0
 margin_bottom = 315.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] congratulazione i file sono stati inviati alla polizia postale [/center]
@@ -280,7 +280,7 @@ margin_left = 70.0
 margin_top = 525.0
 margin_right = 650.0
 margin_bottom = 815.0
-custom_styles/panel = SubResource( 4 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -291,7 +291,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] U
@@ -307,7 +307,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] N
@@ -323,7 +323,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] O
@@ -339,7 +339,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] T
@@ -355,7 +355,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] R
@@ -371,7 +371,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] E
@@ -387,7 +387,7 @@ margin_left = 3.24316
 margin_top = 24.6762
 margin_right = 555.243
 margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] S
