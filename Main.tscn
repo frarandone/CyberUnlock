@@ -287,117 +287,150 @@ __meta__ = {
 
 [node name="U" type="RichTextLabel" parent="Background/Panels/Panel4060"]
 visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
 custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "[center] U
+bbcode_text = "[center] Hai trovato la lettera U!
+Prova a confrontarla con quella delle altre squadre
  [/center]
 "
-text = " U
- 
-"
-
-[node name="N" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] N
- [/center]
-"
-text = " N
- 
-"
-
-[node name="O" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] O
- [/center]
-"
-text = " O
- 
-"
-
-[node name="T" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] T
- [/center]
-"
-text = " T
- 
-"
-
-[node name="R" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] R
- [/center]
-"
-text = " R
- 
-"
-
-[node name="E" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] E
- [/center]
-"
-text = " E
- 
-"
-
-[node name="S" type="RichTextLabel" parent="Background/Panels/Panel4060"]
-visible = false
-margin_left = 3.24316
-margin_top = 24.6762
-margin_right = 555.243
-margin_bottom = 245.676
-custom_fonts/normal_font = SubResource( 6 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "[center] S
- [/center]
-"
-text = " S
+text = " Hai trovato la lettera U!
+Prova a confrontarla con quella delle altre squadre
  
 "
 __meta__ = {
 "_edit_use_anchors_": false
+}
+
+[node name="N" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera N!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera N!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="O" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera O!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera O!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="T" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera T!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera T!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="R" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera R!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera R!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="E" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera E!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera E!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="S" type="RichTextLabel" parent="Background/Panels/Panel4060"]
+visible = false
+margin_left = 10.7941
+margin_top = 11.462
+margin_right = 562.794
+margin_bottom = 232.462
+custom_fonts/normal_font = SubResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center] Hai trovato la lettera S!
+Prova a confrontarla con quella delle altre squadre
+ [/center]
+"
+text = " Hai trovato la lettera S!
+Prova a confrontarla con quella delle altre squadre
+ 
+"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
 }
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4060"]
