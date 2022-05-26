@@ -27,7 +27,7 @@ func _on_LineEdit_text_entered():
 func check_message(prefix, msg):
 	if prefixes.has(prefix) and msg=='3784':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel8021").set_visible(true)
-	elif prefixes.has(prefix) and msg=='2022':
+	elif prefixes.has(prefix) and msg=='2002':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel0473").set_visible(true)
 	elif prefixes.has(prefix) and msg=='off_on_on_off_off':
 		get_tree().get_root().get_node("/root/Node2D/Background/Panels/Panel4785").set_visible(true)
