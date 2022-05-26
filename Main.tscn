@@ -295,15 +295,16 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera U!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera U!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": false,
+"_editor_description_": ""
 }
 
 [node name="N" type="RichTextLabel" parent="Background/Panels/Panel4060"]
@@ -316,11 +317,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera N!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera N!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -337,11 +338,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera O!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera O!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -358,11 +359,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera T!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera T!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -379,11 +380,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera R!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera R!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -400,11 +401,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera E!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera E!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -421,11 +422,11 @@ custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[center] Hai trovato la lettera S!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  [/center]
 "
 text = " Hai trovato la lettera S!
-Prova a confrontarla con quella delle altre squadre
+Vai dalle moderatrici a farti dare l'ultima carta.
  
 "
 __meta__ = {
@@ -435,9 +436,9 @@ __meta__ = {
 
 [node name="OkButton" type="TextureButton" parent="Background/Panels/Panel4060"]
 margin_left = 230.0
-margin_top = 125.0
+margin_top = 130.0
 margin_right = 2620.0
-margin_bottom = 2673.0
+margin_bottom = 2678.0
 rect_scale = Vector2( 0.05, 0.05 )
 texture_normal = ExtResource( 3 )
 script = ExtResource( 4 )
