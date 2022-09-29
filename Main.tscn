@@ -257,10 +257,10 @@ margin_bottom = 231.462
 custom_fonts/normal_font = SubResource( 6 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "[center] Complimenti hai trovato le prove! Vai dalle moderatrici a consegnarle 
+bbcode_text = "[center] Complimenti hai trovato le prove! Vai dalle moderatrici a consegnare le carte rimaste!
  [/center]
 "
-text = " Complimenti hai trovato le prove! Vai dalle moderatrici a consegnarle 
+text = " Complimenti hai trovato le prove! Vai dalle moderatrici a consegnare le carte rimaste!
  
 "
 __meta__ = {
